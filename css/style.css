@@ -6,6 +6,28 @@
   padding: 0;
 }
 
+.body {
+}
+.debug {
+  background-color: blue;
+  color: white;
+  border: 2px dashed black;
+  padding: 5px;
+}
+
+.debug .debug {
+  background-color: rgb(199, 130, 4);
+  color: black;
+}
+
+.debug .debug .debug {
+  background-color: rgb(199, 130, 4);
+  color: black;
+}
+
+.debug .debug .debug .debug {
+  background-color: pink;
+}
 /* # UTILS */
 
 .container {
@@ -13,4 +35,86 @@
   padding: 0 10px;
   width: 1000px;
   max-width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.page-header {
+  background-color: rgb(98, 245, 245);
+}
+
+.page-header > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link-item {
+  display: inline-block;
+  margin-left: 220px;
+  margin-right: 220px;
+}
+
+.first-layer {
+  height: 400px;
+  margin-inline: 25%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.first-layer > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.splitted {
+  height: 400px;
+  margin-inline: 17%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.splitted > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.col-big {
+  width: 74%;
+  height: 401px;
+  margin-left: -2%;
+  margin-top: -1%;
+}
+
+.col-small {
+  width: 39%;
+  height: 401px;
+  margin-right: -2%;
+  margin-top: -1%;
+}
+
+.col-big-2 {
+  width: 74%;
+  height: 401px;
+  margin-right: -2%;
+  margin-top: -1%;
+}
+
+.col-small-2 {
+  width: 39%;
+  height: 401px;
+  margin-left: -2%;
+  margin-top: -1%;
+}
+
+.big-layer {
+  height: 700px;
+  margin-inline: 17%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
